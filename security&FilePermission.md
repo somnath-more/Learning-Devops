@@ -1,6 +1,6 @@
 ## Security
 
-![Alt text](<Screenshot from 2024-02-24 22-57-14.png>)
+![Alt text](<screenshots/image-10.png>)
 
 ## Linux Security
 Acess Controls: Make user and password based authentication

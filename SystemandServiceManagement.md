@@ -55,9 +55,10 @@ It is used to examine and control the systemd system and service manager. You ca
 - In summary, systemd is the underlying system and service manager, while systemctl is a command-line interface to interact with and control systemd. The combination of both provides a comprehensive way to manage services and the system on Linux.
 ![Alt text](<Screenshot from 2024-02-25 15-34-57.png>)
 #### Here, the service command is used instead of the systemctl command and it worked out absolutely fine.
-![Alt text](<Screenshot from 2024-02-25 15-22-28.png>)
+![Alt text](<screenshots/image-28.png>)
 
-![Alt text](<Screenshot from 2024-02-25 15-23-45.png>)
+- The service
+![Alt text](<screenshots/image-45.png>)
 
 Creating Custom Service:
 Create a Service Unit File:
@@ -82,10 +83,10 @@ Restart: Configures how the service behaves when it exits.
 WantedBy: Specifies the target that should be reached to start this service.
 
 System ctl and journactl
-![Alt text](<Screenshot from 2024-02-25 15-50-29.png>)
+![Alt text](<screenshots/image-29.png>)
  * journalctl: used maximum in troubleshooting
 
- ![Alt text](<Screenshot from 2024-02-25 15-54-12.png>)
+ ![Alt text](<screenshots/image-12.png>)
 
 - The systemctl daemon-reload command is used to reload the systemd system manager configuration. This command is necessary when changes have been made to the systemd unit files (service, socket, target, etc.), and you want systemd to recognize these changes without restarting the entire system
  ``` bash
@@ -99,7 +100,8 @@ The systemctl edit command is used to create or edit drop-in units for a given s
 sudo systemctl edit apache2 --full
 ``` 
 Some more usefull Command about systemctl:
-![Alt text](<Screenshot from 2024-02-25 16-06-44.png>)
+
+![Alt text](<screenshots/image-44.png>)
 
 ## JournalCTL
 
