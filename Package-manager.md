@@ -34,7 +34,7 @@ Yum Works on rpm based systems
 DNF – Dandified Yum
 It is also a package manager for RPM-based distributions, introduced in Fedora 18 and it is the next generation of the version of YUM.
 
-If you have been using Fedora 22 onwards, you must have realized that it is the default package manager. Here are some links that will provide you with more information about DNF and how to use it:
+If you have been using Fedora 22 onwards, you must have realized that it is the default package manager
 ### DNF – Dandified Yum
 It is also a package manager for RPM-based distributions, introduced in Fedora 18 and it is the next generation of the version of YUM.
  5. Portage Package Manager – Gentoo

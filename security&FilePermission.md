@@ -12,5 +12,5 @@ SE Linux  :protect the server
 
 CHMOD: Allow file permissions
 
-CHGrp: Allow to change group permissions
-chown: Allow to chnage owner 
+Chgrp: Allow to change group permissions
+chown: Allow to change owner 
